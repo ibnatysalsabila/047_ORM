@@ -1,6 +1,6 @@
 require("dotenv").config();
 
-const development = {
+const development = { // pastikan nama variabel sesuai dengan yang ada di .env
   username: process.env.DB_USER,
   password: process.env.DB_PASS,
   database: process.env.DB_DATABASE,
